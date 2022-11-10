@@ -1,0 +1,791 @@
+/*h1{
+	color:red;
+}
+p{
+	background-color:yellow;
+}
+*/
+
+
+
+/*h1{
+	color:red;
+}
+p{
+	color:pink;
+} */
+
+
+
+/* ID SELECTOR */
+/* #one{ */
+	/* color:yellow */
+/* } */
+/* #two{ */
+	/* background-color:blue */
+/* } */
+
+
+/* CLASS SELECTOR */
+/* .one{ */
+	/* color:blue; */
+/* } */
+
+
+/* GROUP SELECTOR */
+/* h1,p{ */
+	/* color:green; */
+/* } */
+
+
+
+/* COMBINATOR */
+/* DESECDANT SELECTOR---child and grandchild */
+
+/* div p{ */
+	/* color:red; */
+/* } */
+/* div h3{ */
+	/* color:blue; */
+/* } */
+
+
+/* CHILD SELECTOR */
+/* div>p{ */
+	/* color:green; */
+/* } */
+
+
+/* ADJACENT SIBBLING */
+/* div+p{ */
+	/* color:red; */
+/* } */
+
+
+/* ALL SIBBLING */
+/* div~p{ */
+	/* color:pink; */
+/* } */
+
+
+
+
+/* pseudo class selector */
+/* pseudo class are the predefined classes which provides a property to an element */
+/*   syntax: 
+	selector:pesudo_class1{
+		property:value;
+	}
+*/
+
+/* a:hover{ */
+	/* color:red; */
+/* } */
+/* a{ */
+	/* background-color:black; */
+/* } */
+
+
+/* #one{ */
+	/* background-color:red; */
+	/* color:white; */
+	/* border:0 */
+/* } */
+/* #one:hover{ */
+		/* background-color:green; */
+/* } */
+
+
+
+
+/* ATTRIBUTE SELECTOR */
+/* Syntax:
+[attribute]{
+	property:value;
+}
+
+*/
+
+/* [type="text"]{ */
+	/* background-color:yellow; */
+	/* color:blue; */
+/* } */
+/* [type="submit"]{ */
+	/* background-color:green; */
+/* } */
+/* #one:hover{ */
+	/* background-color:pink; */
+/* } */
+
+
+/* [class*="test"]{ */
+	/* color:red; */
+/* } */
+
+
+/* [class*="tested"]{ */
+	/* color:red; */
+/* } */
+
+
+/* [class*="ing"]{ */
+	/* color:red; */
+/* } */
+
+
+
+/* UNIVERSAL SELECTOR */
+/* Syntax:
+*{
+	property:value;
+}
+
+*/
+
+/* *{ */
+	/* background-color:yellow; */
+	/* font-style:italic; */
+/* } */
+
+
+
+/* COLOUR PROPERTY */
+/* by names */
+/* h1{ */
+	/* color:red; */
+/* } */
+/* p{ */
+	/* color:green; */
+/* } */
+
+/* colour code */
+/* h1{ */
+	/* color:#9038AF; */
+/* } */
+/* p{ */
+	/* color:#A2B90C; */
+/* } */
+
+
+/* by RGB Fucction */
+/* syntax:
+	color:rgb{red intensity, green intensity, blue intensity)
+	intensity:0 to 255   */
+/* h1{ */
+	/* color:rgb(255,255,255); */
+	/* color:rgb(0,0,0); */
+	/* color:rgb(40,55,155); */
+/* } */
+/* p{ */
+	/* color:rgb(185,12,54); */
+/* } */
+
+
+
+/* TEXT PROPERTY */
+/* *{ */
+	/* background-color:yellow; */
+/* } */
+/* h1{ */
+	/* text-align:center; */
+	/* color:rgb(40,55,158); */
+	/* text-decoration:underline; */
+	/* text-transform:uppercase; */
+	/* word-spacing:15px; */
+/* } */
+/* p{ */
+	/* text-align:justify; */
+	/* color:rgb(65,130,88); */
+	/* text-transform:capitalize; */
+	/* text-indent:100px; */
+	/* line-height:40px; */
+	/* word-spacing:5px; */
+	/* letter-spacing:3px; */
+	/* font-size:px; */
+	/* font-weight:bold/nornal; */
+	/* font-style:italic */
+	/* font-family: 'Comforter Brush', cursive; */
+	/* font-family:monotype corsiva; */
+	/* font-family: 'Satisfy', cursive; */
+	/* width:600px; */
+	/* height:500px; */
+	/* width:500px; */
+	/* border-style:solid; /*solid/dashed/dotted/ridge*/ 
+	/* border-color:red; */
+	/* border-width:4px; */
+	/* border-radius:20px; */
+	/* padding:20px; */
+/* short hand padding */	
+	/* padding:5px 10px 20px 30px; /* top-right-bottom-left */
+	/* padding:10px 20px; /* top-bottom and left-right */
+	/* padding:10px 20px 30px; /* top and left-right and bottom */
+	
+/* margin--it is a gap between two elemets. it is applied outside the box */
+	/* margin:50px; */
+/* short hand margin */
+	/* margin:100px 300px 100px 300px; */
+	/* margin:50px 80px; */
+	/* margin:50px 100px 150px; */
+	/* margin:100px auto; */
+	/* box-sizing:border-box; */
+	
+	
+	
+/* } */
+	
+	/* the layout in which elements width and height are mentioned in 
+ pixcels is calld as static layout. 
+ 
+ if width is given in pixcels, then if we reduced the screen size, then
+ horizontal scrollbar appears, for user horizontal scrolling is tedious,
+ its a bad user experience.
+ 
+ the layout in which elements width and height are mentioned in 
+ percentage is calld as fluid layout.
+ 
+ disadvantage of fluid layout
+ 
+ if width is given with small percentage, while decreasing the sreen size, the
+ co
+if width is given with small percentage, while decreasing the sreen size, the
+ content become so narrow, that is difficult for the user to rea the content.    */
+ 
+ 
+ 
+ /* padding */
+ 
+/* a{ */
+	/* text-decoration:none; */
+/* } */
+
+
+
+/* display property */
+/* h1{ */
+	/* display:inline; */
+	/* display:inline-block; */
+	/* border-style:solid; */
+	/* width:500px; */
+	
+/* } */
+/* p{ */
+	/* display:inline; */
+/* } */
+/* b{ */
+	/* display:block; */
+/* } */
+
+/* a{ */
+	/* text-decoration:none; */
+/* } */
+/* li{ */
+	/* display:inline-block; */
+	/* border-style:solid; */
+	/* width:150px; */
+	/* height:40px; */
+	/* text-align:center; */
+	/* box-sizing:border-box; */
+	/* margin-right:8px; */
+	/* border-radius:8px; */
+	/* background-color:#9038AF; */
+	/* padding-top:6px; */
+/* } */
+
+/* li a{ */
+	/* color:white; */
+	/* font-weight:bold; */
+/* } */
+/* li:hover{ */
+	/* background-color:#E295A8; */
+/* } */
+/* a:hover{ */
+	/* color:black; */
+/* } */
+
+	
+/* Shadow property */
+/* box-shadow: x-offset y-offset blurness spread color; */
+/* .box-shadow{ */
+	/* width:300px; */
+	/* height:50px; */
+	/* border-style:solid; */
+	/* margin:200px auto; */
+	/* text-align:center;	 */
+	/* padding-top:10px; */
+	/* box-sizing:border-box; */
+	/* background-color:black; */
+	/* color:white; */
+	/* box-shadow:19px -7px 10px 3px #B35ECF; */
+/* } */
+
+/* #search{ */
+	/* border-width:0px; */
+	/* box-shadow:0px 0px 6px 2px #CAC8C8; */
+	/* border-radius:8px; */
+	
+/* } */
+
+
+
+/* Text Shadow property */
+/* text-shadow: x-offset y-offset blurness color;  */
+
+/* .text_shadow{ */
+	/* text-align:center; */
+	/* padding-top:200px; */
+	/* font-size:100px; */
+	/* text-shadow:10px 0px 6px #61C2D9; */
+/* } */
+
+
+/* Background property */
+
+/* .bg{ */
+	/* border-style:solid; */
+	/* height:350px; */
+	/* text-align:center; */
+	/* padding-top:100px; */
+	/* box-sizing:border-box; */
+	/* background-color:#61C2D9; */
+/* } */
+
+/* background-image */
+
+/* .bg1{ */
+	/* height:290px; */
+	/* border-style:solid; */
+	/* background-image:url('../photos/nature.jpg'); */
+	/* background-repeat:no-repeat; */
+	/* background-repeat:repeat-x; /*---horizontal*/  
+	/* /* background-repeat:repeat-y;/*----vertical*/  
+	/* background-size:30%; */
+	/* background-attachment:scroll; /* fixed/scroll*/ 
+/* } */
+
+
+/* position property */
+	/* with the position property you can position element on the browser 
+		syntax:-
+		selector{
+			position:static | fixed | relative | absolute;
+			top: npx;
+			bottom:npx;
+			left:npx;
+			right:npx;
+		}
+*/
+/* #third{ */
+	/* position:fixed; */ /* here reference is browser boundary */
+	/* right:50px; */
+	/* top:30px; */
+	/* color:blue; */
+/* } */
+
+/* #third{ */
+	/* position:relative; /* reference is relative to its own position */
+	/* left:50px; */
+	/* top:30px; */
+	/* color:blue; */
+/* } */
+
+
+/* #third{ */
+	/* position:absolute; /* reference is from 1st element */
+	/* left:50px; */
+	/* top:30px; */
+	/* color:blue; */
+/* } */
+
+
+/* #whatsaap{ */
+	/* position:fixed; */
+	/* bottom:40px; */
+	/* right:20px; */
+/* } */
+/* #call-icon{ */
+	/* position:fixed; */
+	/* bottom:90px; */
+	/* right:20px; */
+/* } */
+
+/* #whatsaap{ */
+	/* float:left; */
+/* } */
+
+
+/* clear property--- to clear the floating effect on non-floating element*/
+
+/* .box1{ */
+	/* border-style:solid; */
+	/* width:60%; */
+	/* float:left; */
+/* } */
+/* .box2{ */
+	/* border-style:solid; */
+	/* width:30%; */
+	/* float:right; */
+/* } */
+/* .box3{ */
+	/* border-style:solid; */
+	/* clear:both; */
+/* } */
+
+/* .card{ */
+	/* width:19%; */
+	/* height:300px; */
+	/* border-style:solid; */
+	/* box-sizing:border-box; */
+	/* float:left; */
+	/* box-shadow:0px 0px 30px #B7EED4; */
+	/* margin-right:15px; */
+/* } */
+/* .card p{ */
+	/* text-align:center; */
+	/* padding-top:100px; */
+/* } */
+
+/* .linear_gradient{ */
+	/* background-image:linear-gradient(to bottom,blue,purple); */
+	/* background-image:linear-gradient(to bottom right,blue,pink,purple); */
+	/* height:100px; */
+/* } */
+
+/* .trans{ */
+	/* width:300px; */
+	/* height:300px; */
+	/* border-style:solid; */
+	/* margin:200px auto; */
+	/* background-color:yellow; */
+	/* color:red; */
+	/* text-align:center; */
+	/* transition-property:transform; */
+	/* transition-duration:2s; */
+	/* transition-delay:1s; */
+	
+/* } */
+ /* .trans:hover{  */
+	/* transform:translatex(200px); */
+	/* transform:translatey(200px); */
+	/* transform:translate(200px,200px); */
+/* }  */
+
+/* .trans:hover{ */
+	/* transform:scalex(1.5); */
+	/* transform:scaley(1.5); */
+	/* transform:scale(1.5); */
+	
+/* } */
+
+/* .trans:hover{ */
+	/* transform:rotate(45deg); */
+	/* transform:rotatex(45deg); */
+	/* transform:rotatey(45deg); */
+/* } */
+	
+/* h1{ */
+	/* text-align:center; */
+	/* color:rgb(40,55,158); */
+	/* text-decoration:underline; */
+	/* text-transform:uppercase; */
+	/* word-spacing:15px; */
+/* } */
+/* .bg1{ */
+	/* height:285px; */
+	
+	/* background-image:url('../photos/nature.jpg'),url('../photos/ganesh.jpg'),url('../photos/ganesh.jpg'); */
+	/* background-position:center,right top, left top; */
+	/* text-align:center,right top, left top; */
+	/* background-repeat: no-repeat,no-repeat;   */
+	/* background-size:30%; */
+	/* background-color:yellow; */
+	/* border-style:solid;  */
+	/* border-color:red; */
+	/* border-width:4px; */
+	/* border-radius:20px; */
+	/* padding:20px; */
+	/* margin:100px 50px; */
+/* } */
+
+
+/* Adaptive-layout */
+
+/* .media{ */
+	/* width:25%; */
+	/* margin-top:10px; */
+	/* height:200px; */
+	/* border-style:solid; */
+	/* float:left; */
+	/* box-sizing:border-box; */
+/* } */
+/* .media:hover{ */
+	/* transform:scalex(1.5);  */
+	/* transform:scaley(1.5); */
+	/* transform:scale(1.1); */
+/* } */
+/* .banner{ */
+	/* width:100%; */
+	/* height:250px; */
+	/* border-style:solid; */
+	/* position:center; */
+/* } */
+
+/* [class*="col-"]{ */
+	/* width:100%; */
+/* } */
+
+/* when screen size is above 768px =>horizontal layout
+when screen size is <=768px   => vertical layout 
+*/
+
+/*	vertical layout				Horizontal layout
+	0px									768px				1300px
+	|----------------------------------|--------------------|
+					
+					100%
+|-----------------------------------------------|
+|---|---|---|---|---|---|---|---|---|---|---|---|
+ 8.33%
+|---|   col-1
+  16.66%
+|-------|  col-2
+    25%
+|-----------| col-3
+     33.33%
+|---------------| col-4
+       41.66%
+|-------------------| col-5
+		50%
+|-----------------------| col-6
+           58.33%
+|---------------------------|  col-7
+            66.66%
+|-------------------------------| col-8
+               75%
+|-----------------------------------| col-9
+                  83.33%
+|---------------------------------------| col-10
+					91.66%
+|-------------------------------------------| col-11
+                        100%
+|-----------------------------------------------| col-12
+
+ 
+*/
+
+@media only screen and (min-width:768px){
+		.col-1{
+			width:8.33%;
+		}
+		.col-2{
+			width:16.66%;
+		}
+		.col-3{
+			width:25%;
+		}
+		.col-4{
+			width:33.33%;
+		}
+		.col-5{
+			width:41.66%;
+		}
+		.col-6{
+			width:50%;
+		}
+		.col-7{
+			width:58.33%;
+		}
+		.col-8{
+			width:66.66%;
+		}
+		.col-9{
+			width:75%;
+		}
+		.col-10{
+			width:83.33%;
+		}
+		.col-11{
+			width:91.66%;
+		}
+		.col-12{
+			width:100%;
+		}
+		
+}
+
+.header{
+	width:100%;
+	height:90px;
+	border-style:solid;
+	background-color:rgb(185,12,54);
+	/* text-align:center; */
+	/* color:white; */
+	/* font-weight:bold; */
+	/* text-decoration:none; */
+
+}
+/* #two{ */
+	/* text-align:center; */
+/* } */
+a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:hover{
+	color:yellow;
+}
+.main{
+	width:100%;
+	height:340px;
+	border-style:solid;
+	color:white;
+	background-color:rgb(255,255,255);
+	background-image:url('../photos/discount1.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+#one{
+	padding:30px;
+	color:white;
+	font-size:30px;
+	font-family:monotype corsiva; 
+}
+
+.footer{
+	width:100%;
+	height:100px;
+	border-style:solid;
+	background-color:rgb(185,12,54);
+	text-align:center;
+}
+#whatsaap{
+	position:fixed;
+	bottom:40px;
+	right:20px;
+}
+#three{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+#three:hover{
+	color:yellow;
+}
+span{
+	color:black;
+	position:top-center;
+	font-size:8px;
+}
+.about{
+	width:100%;
+	height:50px;
+	text-align:justify;
+	
+}
+h3{
+	text-align:center;
+	text-decoration:underline;
+}
+[class*="col-"]{
+	width:100%;
+}
+
+.media1{
+	width:33.33%;
+	margin-top:10px;
+	height:130px;
+	float:left;
+	box-sizing:border-box;
+	
+}
+.media1:hover{
+	color:#EA0DD2 ;
+}
+#aa{
+	color:black;
+}
+#aa:hover{
+	color:blue;
+}
+#aaa:hover{
+	transform:scale(1.1);
+	
+}
+[class*="col-4"]{
+	text-align:center;
+	font-size:10px;
+	padding-top:5px;
+}
+.media2{
+	width:49%;
+	margin-top:10px;
+	margin-left:8px;
+	height:130px;
+	float:left;
+	box-sizing:border-box;
+	background-color:grey;
+	Font-style:arial;
+	font-size:10px;
+	padding-top:4px;
+}
+.media3{
+	width:100%;
+	height:80px;
+	background-color:yellow;
+	float:left;
+	box-sizing:border-box;
+	text-align:center;
+	padding-top:30px;
+}
+.media5{
+	width:12.5%;
+	height:130px;
+	float:left;
+	box-sizing:border-box;
+	/* border-style:solid;	 */
+	font-size:10px;
+}
+.media5:hover{
+	transform:scale(1.1)
+}
+#bk{
+	position:relative;
+	bottom:-4px;
+	left:70px;
+}
+.media6{
+	width:25%;
+	height:130px;
+	float:left;
+	box-sizing:border-box;
+	/* border-style:solid;	 */
+	font-size:10px;
+}
+.media6:hover{
+	transform:scale(1.05)
+}
+#l{
+	position:relative;
+	bottom:-4px;
+	left:-1px;
+}
+.bg{
+	background-color:yellow;
+}
+.media7{
+	width:16.6%;
+	height:100px;
+	float:left;
+	box-sizing:border-box;
+	/* border-style:solid;	 */
+	font-size:12px;
+
+}
+.media7:hover{
+	transform:scale(1.05);
+}
+#s{
+	position:relative;
+	bottom:-46px;
+	left:85px;
+}
